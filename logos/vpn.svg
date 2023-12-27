@@ -21,13 +21,13 @@
 #    </linearGradient>
 #  </defs>
 #
-<style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:#FFFFFF;stroke:#01507B;stroke-width:20;stroke-miterlimit:16;}
-	.st2{fill:#DDDDDD;}
-	.st3{fill:#01507B;}
-</style>
-<radialGradient id="SVGID_1_" cx="385.802" cy="384.6929" r="383.1984" gradientUnits="userSpaceOnUse">
+#<style type="text/css">
+#	.st0{fill:url(#SVGID_1_);}
+#	.st1{fill:#FFFFFF;stroke:#01507B;stroke-width:20;stroke-miterlimit:16;}
+#	.st2{fill:#DDDDDD;}
+#	.st3{fill:#01507B;}
+#</style>
+#<radialGradient id="SVGID_1_" cx="385.802" cy="384.6929" r="383.1984" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#FFC43D"/>
 	<stop  offset="0.0388" style="stop-color:#FCBA3C"/>
 	<stop  offset="0.3236" style="stop-color:#E77538"/>
