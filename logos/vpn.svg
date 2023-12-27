@@ -1,5 +1,6 @@
 <svg id="vpn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 769 769" width="500" height="500" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
   <style>
+<<<<<<< HEAD
     @keyframes shine_gradient5_f_o{0%,53.333333%{fill-opacity:1}60%,to{fill-opacity:0}}@keyframes shine_gradient4_f_o{0%,50%{fill-opacity:1}56.666667%,to{fill-opacity:0}}@keyframes shine_gradient3_f_o{0%,46.666667%{fill-opacity:1}53.333333%,to{fill-opacity:0}}@keyframes shine_gradient2_f_o{0%,43.333333%{fill-opacity:1}50%,to{fill-opacity:0}}@keyframes shine_gradient1_f_o{0%,40%{fill-opacity:1}46.666667%,to{fill-opacity:0}}#shine_gradient5{animation:shine_gradient5_f_o 3000ms linear infinite normal forwards}#shine_gradient4{animation:shine_gradient4_f_o 3000ms linear infinite normal forwards}#shine_gradient3{animation:shine_gradient3_f_o 3000ms linear infinite normal forwards}#shine_gradient2{animation:shine_gradient2_f_o 3000ms linear infinite normal forwards}#shine_gradient1{animation:shine_gradient1_f_o 3000ms linear infinite normal forwards}
   </style>
   <defs>
@@ -37,4 +38,20 @@
       <path id="letter_p" d="M299.3 650.73c-4.65-.84-9.52-.51-14.3-.55-3.63-.03-5.74 2.22-5.74 5.87-.01 12.14-.01 24.29-.01 36.43 0 3.59 2.21 5.98 5.48 5.96 3.18-.02 5.31-2.36 5.34-5.9.02-3.22 0-6.45 0-9.97 2.09 0 3.93.03 5.77 0 7.89-.13 14.83-6.24 15.71-13.81 1.01-8.62-4.05-16.55-12.25-18.03zm-3.47 21c-1.83.15-3.68.03-5.68.03v-10.69c2.14 0 4.22-.19 6.26.05 2.66.32 4.5 2.78 4.41 5.46-.08 2.68-2.14 4.91-4.99 5.15z" fill="#000"/>
     </g>
   </g>
+=======
+    /* CSS styles for the vector elements */
+    .st0{fill:#FFC43D;}
+    .st1{fill:#FFFFFF;stroke:#01507B;stroke-width:20;stroke-miterlimit:16;}
+    .st2{fill:#DDDDDD;}
+    .st3{fill:#01507B;}
+  </style>
+
+  <!-- Removed gradient definitions -->
+
+  <path class="st0" d="M769,384.78c0,96.16,0,192.32,0,288.49c0,44.08-33.24,84.37-76.66,92.62c-6.42,1.22-13.05,1.92-19.58,1.92
+  <!-- ... (other path details) ... -->
+  <path id="letter_n" d="M329.81 681.47c0 3.7.03 7.39-.01 11.09<!-- ... (other letter paths) ... -->"/>
+  <path id="letter_v" d="M258.59 671.99c1.68-6.16 3.21-11.85 4.79-17.53<!-- ... (other letter paths) ... -->"/>
+  <path id="letter_p" d="M299.3 650.73c-4.65-.84-9.52-.51-14.30<!-- ... (other letter paths) ... -->"/>
+>>>>>>> 0592e9daab9bf7f1da3b161a5f2f8ac4e79273f4
 </svg>
