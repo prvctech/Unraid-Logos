@@ -5,19 +5,19 @@
   <defs>
     <linearGradient id="shine_gradient5-fill" x1=".421" y1=".408" x2=".881" y2=".796" spreadMethod="pad" gradientUnits="objectBoundingBox">
       <stop id="shine_gradient5-fill-0" offset="0%" stop-color="#FFDEC5"/>
-      <stop id="shine_gradient5-fill-1" offset="100%" stop-color="#005174"/>
+      <stop id="shine_gradient5-fill-1" offset="100%" stop-color="##2FE467"/>
     </linearGradient>
     <linearGradient id="shine_gradient4-fill" x1=".04" y1=".133" x2=".527" y2=".53" spreadMethod="reflect" gradientUnits="objectBoundingBox">
       <stop id="shine_gradient4-fill-0" offset="0%" stop-color="#FFDEC5"/>
-      <stop id="shine_gradient4-fill-1" offset="100%" stop-color="#005174"/>
+      <stop id="shine_gradient4-fill-1" offset="100%" stop-color="##2FE467"/>
     </linearGradient>
     <linearGradient id="shine_gradient3-fill" x1=".741" y1=".68" x2="1.231" y2="1.067" spreadMethod="reflect" gradientUnits="objectBoundingBox">
       <stop id="shine_gradient3-fill-0" offset="0%" stop-color="#FFDEC5"/>
-      <stop id="shine_gradient3-fill-1" offset="100%" stop-color="#005174"/>
+      <stop id="shine_gradient3-fill-1" offset="100%" stop-color="##2FE467"/>
     </linearGradient>
     <linearGradient id="shine_gradient2-fill" x1="-.265" y1="-.096" x2=".332" y2=".369" spreadMethod="pad" gradientUnits="objectBoundingBox">
       <stop id="shine_gradient2-fill-0" offset="0%" stop-color="#FFDEC5"/>
-      <stop id="shine_gradient2-fill-1" offset="100%" stop-color="#005174"/>
+      <stop id="shine_gradient2-fill-1" offset="100%" stop-color="##2FE467"/>
     </linearGradient>
   </defs>
   <g id="background" transform="matrix(4 0 0 4 -796.72 -2313.48)">
