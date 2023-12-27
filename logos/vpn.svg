@@ -3,24 +3,24 @@
     @keyframes shine_gradient5_f_o{0%,53.333333%{fill-opacity:1}60%,to{fill-opacity:0}}@keyframes shine_gradient4_f_o{0%,50%{fill-opacity:1}56.666667%,to{fill-opacity:0}}@keyframes shine_gradient3_f_o{0%,46.666667%{fill-opacity:1}53.333333%,to{fill-opacity:0}}@keyframes shine_gradient2_f_o{0%,43.333333%{fill-opacity:1}50%,to{fill-opacity:0}}@keyframes shine_gradient1_f_o{0%,40%{fill-opacity:1}46.666667%,to{fill-opacity:0}}#vpn{pointer-events:all} #vpn:hover *{animation-play-state:running!important}#shine_gradient5{animation:shine_gradient5_f_o 4000ms linear infinite normal forwards}#shine_gradient4{animation:shine_gradient4_f_o 4000ms linear infinite normal forwards}#shine_gradient3{animation:shine_gradient3_f_o 4000ms linear infinite normal forwards}#shine_gradient2{animation:shine_gradient2_f_o 4000ms linear infinite normal forwards}#shine_gradient1{animation:shine_gradient1_f_o 4000ms linear infinite normal forwards}
   </style>
   <defs>
-    <linearGradient id="shine_gradient5-fill" x1=".421" y1=".408" x2=".881" y2=".796" spreadMethod="pad" gradientUnits="objectBoundingBox">
-      <stop id="shine_gradient5-fill-0" offset="0%" stop-color="#ffbf00"/>
-      <stop id="shine_gradient5-fill-1" offset="80%" stop-color="#fff"/>
-    </linearGradient>
-    <linearGradient id="shine_gradient4-fill" x1=".04" y1=".133" x2=".527" y2=".53" spreadMethod="reflect" gradientUnits="objectBoundingBox">
-      <stop id="shine_gradient4-fill-0" offset="0%" stop-color="#ffbf00"/>
-      <stop id="shine_gradient4-fill-1" offset="80%" stop-color="#fff"/>
-    </linearGradient>
-    <linearGradient id="shine_gradient3-fill" x1=".741" y1=".68" x2="1.231" y2="1.067" spreadMethod="reflect" gradientUnits="objectBoundingBox">
-      <stop id="shine_gradient3-fill-0" offset="0%" stop-color="#ffbf00"/>
-      <stop id="shine_gradient3-fill-1" offset="80%" stop-color="#fff"/>
-    </linearGradient>
-    <linearGradient id="shine_gradient2-fill" x1="-.265" y1="-.096" x2=".332" y2=".369" spreadMethod="pad" gradientUnits="objectBoundingBox">
-      <stop id="shine_gradient2-fill-0" offset="0%" stop-color="#ffbf00"/>
-      <stop id="shine_gradient2-fill-1" offset="80%" stop-color="#fff"/>
-    </linearGradient>
-  </defs>
-
+#    <linearGradient id="shine_gradient5-fill" x1=".421" y1=".408" x2=".881" y2=".796" spreadMethod="pad" gradientUnits="objectBoundingBox">
+#      <stop id="shine_gradient5-fill-0" offset="0%" stop-color="#ffbf00"/>
+#      <stop id="shine_gradient5-fill-1" offset="80%" stop-color="#fff"/>
+#    </linearGradient>
+#    <linearGradient id="shine_gradient4-fill" x1=".04" y1=".133" x2=".527" y2=".53" spreadMethod="reflect" gradientUnits="objectBoundingBox">
+#      <stop id="shine_gradient4-fill-0" offset="0%" stop-color="#ffbf00"/>
+#      <stop id="shine_gradient4-fill-1" offset="80%" stop-color="#fff"/>
+#    </linearGradient>
+#    <linearGradient id="shine_gradient3-fill" x1=".741" y1=".68" x2="1.231" y2="1.067" spreadMethod="reflect" gradientUnits="objectBoundingBox">
+#      <stop id="shine_gradient3-fill-0" offset="0%" stop-color="#ffbf00"/>
+#      <stop id="shine_gradient3-fill-1" offset="80%" stop-color="#fff"/>
+#    </linearGradient>
+#    <linearGradient id="shine_gradient2-fill" x1="-.265" y1="-.096" x2=".332" y2=".369" spreadMethod="pad" gradientUnits="objectBoundingBox">
+#      <stop id="shine_gradient2-fill-0" offset="0%" stop-color="#ffbf00"/>
+#      <stop id="shine_gradient2-fill-1" offset="80%" stop-color="#fff"/>
+#    </linearGradient>
+#  </defs>
+#
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:#FFFFFF;stroke:#01507B;stroke-width:20;stroke-miterlimit:16;}
