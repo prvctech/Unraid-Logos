@@ -10,6 +10,19 @@
     #lens_animation { animation: lens_animation__ts 4000ms linear infinite forwards; }
   </style>
 
+  <!-- Neon green glow filter -->
+  <defs>
+    <filter id="green_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
   <!-- background -->
   <g id="background">
     <path d="M500 250v186.99c0 28.57-21.55 54.69-49.69 60.04-4.16.79-8.46 1.24-12.69 1.24H62.97c-30.45 0-57.04-23.36-61.03-53.67C.59 441.93.35 439.21.35 436.52V62.86C.35 34.28 21.91 8.16 50.04 2.82c4.16-.79 8.46-1.24 12.69-1.24H437.1c28.57 0 54.73 21.58 60.04 49.69.79 4.16 1.24 8.46 1.24 12.69V250z" fill="#D52727"/>
@@ -26,27 +39,9 @@
       <!-- green lenses -->
       <path d="M454.66 251.43c.79 42.62-35.31 72.06-70.5 72.85-43.19.97-74.45-35.55-74.47-72.33-.02-40.87 35.51-72.69 72.17-72.65 41.3.06 74.08 35.21 72.8 72.13z" fill="#2f855a"/>
       <path d="M53.76 252.44c-1.71-40.58 33.88-73.39 72.84-73.06 39.07.33 73.52 33.31 71.98 75.16-1.32 35.8-30.78 70.61-75.23 69.78-35.79-.66-71.17-33.46-69.59-71.88z" fill="#2f855a"/>
-      <!-- bigger dollar signs -->
-      <text x="365" y="285" font-size="120" font-weight="bold" fill="#39FF14" text-anchor="middle" font-family="Arial, sans-serif">$</text>
-      <text x="140" y="285" font-size="120" font-weight="bold" fill="#39FF14" text-anchor="middle" font-family="Arial, sans-serif">$</text>
+      <!-- dollar signs with green glow and white outline -->
+      <text x="365" y="285" font-size="120" font-weight="bold" fill="#39FF14" stroke="#FFF" stroke-width="0.5" text-anchor="middle" font-family="Arial, sans-serif" filter="url(#green_glow)">$</text>
+      <text x="140" y="285" font-size="120" font-weight="bold" fill="#39FF14" stroke="#FFF" stroke-width="0.5" text-anchor="middle" font-family="Arial, sans-serif" filter="url(#green_glow)">$</text>
     </g>
-  </g>
-
-  <!-- varied coin pile -->
-  <g id="coins">
-    <circle cx="50"  cy="425" r="6"  fill="#f5c542"/>
-    <circle cx="100" cy="440" r="18" fill="#f5c542"/>
-    <circle cx="150" cy="415" r="12" fill="#f5c542"/>
-    <circle cx="200" cy="445" r="22" fill="#f5c542"/>
-    <circle cx="250" cy="430" r="14" fill="#f5c542"/>
-    <circle cx="300" cy="420" r="8"  fill="#f5c542"/>
-    <circle cx="350" cy="435" r="16" fill="#f5c542"/>
-    <circle cx="400" cy="425" r="20" fill="#f5c542"/>
-    <circle cx="450" cy="440" r="10" fill="#f5c542"/>
-    <circle cx="75"  cy="460" r="14" fill="#f5c542"/>
-    <circle cx="175" cy="460" r="10" fill="#f5c542"/>
-    <circle cx="275" cy="460" r="18" fill="#f5c542"/>
-    <circle cx="375" cy="460" r="12" fill="#f5c542"/>
-    <circle cx="475" cy="460" r="8"  fill="#f5c542"/>
   </g>
 </svg>
